@@ -1,0 +1,46 @@
+/*
+ * Globals
+*/
+
+/* Links */
+a, 
+a :focus,
+a :hover {
+    color: #9ca46a;
+    text-decoration: underline;
+}
+
+
+/*
+ * Base Structure 
+*/
+
+html, 
+body {
+    height: 100%;
+}
+
+body {
+    display: -ms-flexbox;
+    display: -webkit-box;
+    display: flex;
+    -ms-flex-pack: center;
+    -webkit-box-pack: center;
+    justify-content: center;
+    color: #3f3a37;
+}
+
+.cover-container {
+    max-width: 45em;
+}
+
+/*
+ * Header
+*/
+
+
+
+
+/*
+ * Main
+*/
