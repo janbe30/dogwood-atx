@@ -28,6 +28,7 @@ body {
     -webkit-box-pack: center;
     justify-content: center;
     color: #3f3a37;
+    padding: 1em 1.5em;
 }
 
 .cover-container {
@@ -37,9 +38,36 @@ body {
 /*
  * Header
 */
+header {
+    margin-bottom: 2em;
+    align-items: center;
+    padding: 0.5em 1em;
+}
 
+.main-logo {
+    width: 14em;
+    height: 100%;
+    margin: 1em auto 1.8em;
+}
 
+ul.social {
+    list-style: none;
+    display: inline-block;
+}
 
+ul.social li {
+    font-size: 1.5em;
+    display: inline-block;
+}
+
+ul.social li a {
+    color: #ababbd;
+}
+
+ul.social li a:hover,
+ul.social li a:focus {
+    color: #ae785b;
+}
 
 /*
  * Main
