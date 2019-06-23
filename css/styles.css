@@ -4,8 +4,8 @@
 
 /* Links */
 a, 
-a :focus,
-a :hover {
+a:focus,
+a:hover {
     color: #9ca46a;
     text-decoration: underline;
 }
@@ -62,11 +62,13 @@ header .col-8 {
 ul.social {
     list-style: none;
     display: inline-block;
+    margin: 1em auto 0 -1em;
 }
 
 ul.social li {
-    font-size: 1.5em;
+    font-size: 1.75em;
     display: inline-block;
+    margin: 0 0.5em 0;
 }
 
 ul.social li a {
@@ -75,7 +77,8 @@ ul.social li a {
 
 ul.social li a:hover,
 ul.social li a:focus {
-    color: #ae785b;
+    color: #ae785b !important;
+    text-decoration: none !important;
 }
 
 /*
