@@ -138,6 +138,12 @@ footer .inner {
     justify-content: center;
 }
 
+footer .tagline {
+    font-family: 'AveriaSerifLibre', ArialBold !important;
+    text-transform: uppercase;
+    font-size: 1.5em;
+}
+
 .sm-mark {
     width: 4em;
 }
