@@ -6,8 +6,8 @@
 a, 
 a:focus,
 a:hover {
-    color: #9ca46a;
-    text-decoration: underline;
+    color: #9ca46a !important;
+    text-decoration: underline !important;
 }
 
 
@@ -27,7 +27,7 @@ body {
     -ms-flex-pack: center;
     -webkit-box-pack: center;
     justify-content: center;
-    color: #3f3a37;
+    color: #3f3a37 !important;
     padding: 1em 1.5em;
 }
 
@@ -61,8 +61,8 @@ header .col-8 {
 
 ul.social {
     list-style: none;
-    display: inline-block;
-    margin: 1em auto 0 -1em;
+    /* display: inline-block; */
+    margin: 1em auto 0.5em 18%;
 }
 
 ul.social li {
@@ -85,6 +85,17 @@ ul.social li a:focus {
  * Main
 */
 
+h2 {
+    text-transform: uppercase;
+}
+
+h2 span {
+    color: #AE785B;
+}
+
+.lead {
+    font-weight: 600 !important;
+}
 
 /*
  * Footer
