@@ -48,6 +48,7 @@ header {
     margin-bottom: 2em;
     align-items: center;
     padding: 0.5em 1em;
+    height: auto;
 }
 
 header .row > div {
