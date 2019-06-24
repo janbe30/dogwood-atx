@@ -17,7 +17,7 @@ a.secondary-link {
 }
 
 .btn-primary {
-    background: transparent;
+    background: transparent !important;
     color: #AE785B !important;
     text-transform: uppercase;
     font-family: 'Karla-Bold', Arial, Helvetica, sans-serif;
