@@ -90,7 +90,7 @@ ul.social li a:focus {
 /*
  * Main
 */
-main {
+.container {
     padding: 1em 1.5em;
 }
 
