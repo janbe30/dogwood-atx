@@ -145,7 +145,11 @@ footer {
 
 footer .inner {
     display: flex;
+    display: -ms-flexbox;
+    display: -webkit-box;
     justify-content: center;
+    align-items: center;
+    flex-direction: column;
 }
 
 footer .tagline {
