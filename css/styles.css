@@ -18,11 +18,11 @@ a.secondary-link {
 
 .btn-primary {
     background: transparent;
-    color: #AE785B;
+    color: #AE785B !important;
     text-transform: uppercase;
     font-family: 'Karla-Bold', Arial, Helvetica, sans-serif;
-    border: 2px solid #AE785B;
-    border-radius: 0;
+    border: 2px solid #AE785B !important;
+    border-radius: 0 !important;
 }
 
 /* Lists */
