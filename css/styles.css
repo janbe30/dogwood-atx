@@ -153,6 +153,7 @@ h3 {
 
 .related-image { 
     width: 16em;
+    height: 100%;
     margin: 0 1.5em 1em;
     display: block;
 }
