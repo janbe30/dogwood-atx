@@ -91,7 +91,7 @@ ul.social li a:focus {
  * Main
 */
 .container {
-    padding: 1em 1.5em;
+    padding: 1em 2em !important;
 }
 
 h2 {
