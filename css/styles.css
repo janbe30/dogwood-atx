@@ -33,7 +33,7 @@ body {
     -webkit-box-pack: center;
     justify-content: center;
     color: #3f3a37 !important;
-    padding: 1em 1.5em;
+    padding: 1em 0;
     font-family: 'Karla-Regular', Arial, Helvetica, sans-serif !important;
 }
 
@@ -90,6 +90,9 @@ ul.social li a:focus {
 /*
  * Main
 */
+main {
+    padding: 1em 1.5em;
+}
 
 h2 {
     text-transform: uppercase;
@@ -145,5 +148,5 @@ footer .tagline {
 }
 
 .sm-mark {
-    width: 4em;
+    width: 2em;
 }
