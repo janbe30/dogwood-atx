@@ -16,6 +16,11 @@ ul {
     margin-left: -2rem;
 }
 
+/* Sections */
+section {
+    display: inline-block !important;
+}
+
 /*
  * Base Structure 
 */
