@@ -151,11 +151,12 @@ h3 {
 
 .lead {
     font-weight: 600 !important;
+    margin-bottom: 1.5em;
 }
 
 #vet {
     margin: 0;
-    background: #EFF7EC;
+    background: #F8F7F0;
     width: 100%;
     padding: 1em 1.5em;
 }
@@ -165,7 +166,7 @@ h3 {
 }
 
 #vet h2 {
-    color: #9CA46A;
+    color: #AE785B;
     font-size: 1.9rem;
     margin-bottom: 1em;
 }
