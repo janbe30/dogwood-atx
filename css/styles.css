@@ -193,3 +193,9 @@ footer .tagline {
         margin: 0em auto 0 -2em;
     }
 }
+
+@media only screen and (min-width: 1200px){
+    .container {
+        max-width: 65em;
+    }
+}
