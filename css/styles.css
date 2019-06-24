@@ -177,7 +177,10 @@ footer .tagline {
         flex-direction: row;
         justify-content: center;
     } */
-
+    header .row > div:nth-child(2) {
+        align-items: center;
+        justify-content: flex-start;
+    }
 
 
     .main-logo {
@@ -187,6 +190,6 @@ footer .tagline {
     }
 
     ul.social {
-        margin: 0em auto;
+        margin: 0em auto 0 -2em;
     }
 }
