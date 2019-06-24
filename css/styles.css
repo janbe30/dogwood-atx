@@ -25,6 +25,15 @@ a.secondary-link {
     border-radius: 0 !important;
 }
 
+.btn-primary:focus {
+    box-shadow: 0 0 0 0.2rem rgba(156,164,106,.5) !important;
+}
+
+
+.btn-primary:hover {
+    border-color: #9CA46A !important;
+}
+
 /* Lists */
 ul {
     list-style: none;
