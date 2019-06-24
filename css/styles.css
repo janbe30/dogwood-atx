@@ -21,6 +21,14 @@ section {
     display: inline-block !important;
 }
 
+/* Others */
+.centered-flex {
+    display: flex;
+    display: -webkit-flex;
+    display: -ms-flexbox;
+    justify-content: center;
+}
+
 /*
  * Base Structure 
 */
@@ -56,12 +64,12 @@ header {
     height: auto;
 }
 
-header .row > div {
+/* header .row > div {
     display: flex;
     display: -webkit-flex;
     display: -ms-flexbox;
     justify-content: center;
-}
+} */
 
 header .col-8 {
     display: flex;
