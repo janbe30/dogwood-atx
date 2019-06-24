@@ -62,7 +62,7 @@ header .col-8 {
 .main-logo {
     width: 14em;
     height: 100%;
-    margin: 1em auto 1.8em !important;
+    margin: 1em auto 1.8em;
 }
 
 ul.social {
@@ -140,6 +140,7 @@ footer {
     margin: 5em auto 0;
     background: #3F3A37;
     padding: 1.8em;
+    color: #F8F7F0;
 }
 
 footer .inner {
@@ -151,7 +152,7 @@ footer .tagline {
     font-family: 'AveriaSerifLibre', ArialBold !important;
     text-transform: uppercase;
     font-size: 1.5em;
-    color: #F8F7F0;
+    
 }
 
 .sm-mark {
