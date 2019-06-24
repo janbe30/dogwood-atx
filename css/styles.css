@@ -50,7 +50,7 @@ header {
     padding: 0.5em 1em;
 }
 
-header > div {
+header .row > div {
     display: flex;
     display: -webkit-flex;
     display: -ms-flexbox;
