@@ -146,7 +146,7 @@ footer {
 footer .inner {
     display: flex;
     display: -ms-flexbox;
-    display: -webkit-box;
+    display: -webkit-flex;
     justify-content: center;
     align-items: center;
     flex-direction: column;
