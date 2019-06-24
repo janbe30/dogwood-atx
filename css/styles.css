@@ -10,6 +10,10 @@ a:hover {
     text-decoration: underline !important;
 }
 
+a.secondary-link {
+    font-family: 'Karla-Bold', Arial, Helvetica, sans-serif !important;
+}
+
 /* Lists */
 ul {
     list-style: none;
