@@ -334,8 +334,9 @@ footer .tagline {
   
   #tagline-graphic {
     position: absolute;
-    top: 0;
-    left: 0;
+    top: 50%;
+    /* top: 0;
+    left: 0; */
   }
   
   /*.st0-pets, .st0-ppl, .st1, .st2-are, .st2-too {
