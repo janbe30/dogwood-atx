@@ -237,6 +237,10 @@ footer .tagline {
         flex-direction: row;
         justify-content: center;
     } */
+    .graphic-container {
+        width: 50%;
+    }
+
     header .row > div:nth-child(2) {
         align-items: center;
         justify-content: flex-start;
@@ -297,9 +301,9 @@ footer .tagline {
 
 /* When animation is complete, add class 'animated' to body and transition graphic out view */
 .animated #animation-wrapper .animation-section {
-    -webkit-transform: translateY(-100%);
-    -ms-transform: translateY(-100%);
-    transform: translateY(-100%);
+    -webkit-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
 }
 
 .animated .graphic-container {
@@ -308,9 +312,9 @@ footer .tagline {
 
 .animated #animation-wrapper {
     visibility: hidden;
-    -webkit-transform: translateY(-100%);
-    -ms-transform: translateY(-100%);
-    transform: translateY(-100%);
+    -webkit-transform: translateY(100%);
+    -ms-transform: translateY(100%);
+    transform: translateY(100%);
 }
 
 
