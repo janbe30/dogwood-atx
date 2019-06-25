@@ -297,8 +297,8 @@ footer .tagline {
     justify-content: center;
     align-items: center;
     opacity: 1;
-    -webkit-transition: all 0.5s 0.2s cubic-bezier(0.645, 0.045, 0.355, 1.0);
-    transition: all 0.5s 0.2s cubic-bezier(0.645, 0.045, 0.355, 1.0);
+    -webkit-transition: all 0.4s 0.2s cubic-bezier(0.645, 0.045, 0.355, 1.0);
+    transition: all 0.4s 0.2s cubic-bezier(0.645, 0.045, 0.355, 1.0);
 }
 
 /* When animation is complete, add class 'animated' to body and transition graphic out view */
