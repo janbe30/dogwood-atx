@@ -302,13 +302,14 @@ footer .tagline {
 }
 
 /* When animation is complete, add class 'animated' to body and transition graphic out view */
-.animated #animation-wrapper .animation-section {
+/* .animated #animation-wrapper .animation-section {
     -webkit-transform: translateY(100%);
     -ms-transform: translateY(100%);
     transform: translateY(100%);
-}
+} */
 
-.animated .graphic-container {
+.animated .graphic-container,
+.animated #animation-wrapper .animation-section {
     opacity: 0;
 }
 
