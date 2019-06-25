@@ -92,9 +92,10 @@ body {
 header {
     margin-bottom: 2em;
     align-items: center;
-    padding: 0.5em 1em;
+    padding: 1.75em 1em;
     height: auto;
     background: #3F3A37;
+    border-bottom: 0.3em solid rgba(156,164,106,.9);
 }
 
 /* header .row > div {
