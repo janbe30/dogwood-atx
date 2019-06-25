@@ -280,7 +280,7 @@ footer .tagline {
     z-index: 1000;
     display: block;
     opacity: 1;
-    background: #3F3A37;
+    background: #EFF7EC;
     -webkit-transition: all 0.3s 1s ease-out;
     transition: all 0.3s 1s ease-out;
  }
@@ -297,8 +297,8 @@ footer .tagline {
     justify-content: center;
     align-items: center;
     opacity: 1;
-    -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.0);
-    transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.0);
+    -webkit-transition: all 0.5s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.0);
+    transition: all 0.5s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.0);
 }
 
 /* When animation is complete, add class 'animated' to body and transition graphic out view */
