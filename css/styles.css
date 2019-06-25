@@ -291,6 +291,23 @@ footer .tagline {
     opacity: 1;
 }
 
+/* When animation is complete, add class 'animated' to body and transition graphic out view */
+.animated #animation-wrapper .animation-section {
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%);
+}
+
+.animated .graphic-container {
+    opacity: 0;
+}
+
+.animated #animation-wrapper {
+    visibility: hidden;
+    -webkit-transform: translateY(-100%);
+    -ms-transform: translateY(-100%);
+    transform: translateY(-100%);
+}
 
 
  /* SVG */
