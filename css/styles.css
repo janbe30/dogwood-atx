@@ -70,16 +70,16 @@ body {
     -webkit-box-pack: center;
     justify-content: center; */
     color: #3f3a37 !important;
-    padding: 1em 0;
+    /* padding: 1em 0; */
     font-family: 'Karla-Regular', Arial, Helvetica, sans-serif !important;
-    background-image: url('/images/bg.jpg');
+    /* background-image: url('/images/bg.jpg');
     background-repeat: no-repeat;
     background-position: center center;
     background-attachment: fixed;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
-    background-size: cover;
+    background-size: cover; */
 }
 
 .cover-container {
@@ -94,6 +94,7 @@ header {
     align-items: center;
     padding: 0.5em 1em;
     height: auto;
+    background: #3F3A37;
 }
 
 /* header .row > div {
