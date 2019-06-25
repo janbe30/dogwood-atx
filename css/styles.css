@@ -327,8 +327,8 @@ footer .tagline {
     margin: 0 auto;
     padding-top: 10%; /* makes sure aspect ration of container = that of svg graphic*/
     position: relative; 
-    -webkit-animation: scale-out-ver-bottom 0.3s cubic-bezier(0.550, 0.085, 0.680, 0.530) forwards;
-	        animation: scale-out-ver-bottom 0.3s cubic-bezier(0.550, 0.085, 0.680, 0.530) forwards;
+    -webkit-animation: scale-out-ver-bottom 1s 0.3s cubic-bezier(0.550, 0.085, 0.680, 0.530) forwards;
+	        animation: scale-out-ver-bottom 1s 0.3s cubic-bezier(0.550, 0.085, 0.680, 0.530) forwards;
   }
 
   
