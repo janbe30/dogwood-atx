@@ -315,9 +315,10 @@ footer .tagline {
 
 .animated #animation-wrapper {
     visibility: hidden;
-    -webkit-transform: translateY(100%);
+    opacity: 0;
+    /* -webkit-transform: translateY(100%);
     -ms-transform: translateY(100%);
-    transform: translateY(100%);
+    transform: translateY(100%); */
 }
 
 
