@@ -275,6 +275,8 @@ footer .tagline {
     display: block;
     opacity: 1;
     background: #F8F7F0;
+    -webkit-transition: all 0.3s 1s ease-out;
+    transition: all 0.3s 1s ease-out;
  }
 
 #animation-wrapper .animation-section {
@@ -289,6 +291,8 @@ footer .tagline {
     justify-content: center;
     align-items: center;
     opacity: 1;
+    -webkit-transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.0);
+    transition: all 0.7s 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.0);
 }
 
 /* When animation is complete, add class 'animated' to body and transition graphic out view */
@@ -313,11 +317,14 @@ footer .tagline {
  /* SVG */
  .graphic-container {
     height: 0;
-    width: 60%;
+    width: 90%;
     margin: 0 auto;
     padding-top: 10%; /* makes sure aspect ration of container = that of svg graphic*/
     position: relative; 
+    -webkit-transition: all 0.3s ease-out;
+    transition: all 0.3s ease out;
   }
+
   
   #tagline-graphic {
     position: absolute;
