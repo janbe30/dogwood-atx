@@ -280,7 +280,7 @@ footer .tagline {
     z-index: 1000;
     display: block;
     opacity: 1;
-    background: #F8F7F0;
+    background: #AE785B;
     -webkit-transition: all 0.3s 1s ease-out;
     transition: all 0.3s 1s ease-out;
  }
@@ -603,7 +603,7 @@ footer .tagline {
   
   
   .green { 
-    animation: grow-vine-1 2s cubic-bezier(.65,.15,.45,.98);
+    animation: grow-vine-1 1s cubic-bezier(.65,.15,.45,.98);
     transform-origin: center bottom;
   }
   
