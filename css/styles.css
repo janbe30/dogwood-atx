@@ -281,8 +281,8 @@ footer .tagline {
     display: block;
     opacity: 1;
     background: #EFF7EC;
-    -webkit-transition: all 0.3s 1s ease-out;
-    transition: all 0.3s 1s ease-out;
+    -webkit-transition: all 0.2s 1s ease-out;
+    transition: all 0.2s 1s ease-out;
  }
 
 #animation-wrapper .animation-section {
@@ -327,8 +327,8 @@ footer .tagline {
     margin: 0 auto;
     padding-top: 10%; /* makes sure aspect ration of container = that of svg graphic*/
     position: relative; 
-    -webkit-transition: all 0.3s ease-out;
-    transition: all 0.3s ease-out;
+    -webkit-transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.0);
+    transition: all 0.3s cubic-bezier(0.645, 0.045, 0.355, 1.0);
   }
 
   
