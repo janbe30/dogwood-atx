@@ -238,7 +238,7 @@ footer .tagline {
         justify-content: center;
     } */
     .graphic-container {
-        width: 50%;
+        width: 50% !important;
     }
 
     header .row > div:nth-child(2) {
