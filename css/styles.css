@@ -281,8 +281,8 @@ footer .tagline {
     display: block;
     opacity: 1;
     background: #EFF7EC;
-    -webkit-transition: all 0.2s 1s ease-out;
-    transition: all 0.2s 1s ease-out;
+    -webkit-transition: all 0.2s 0.5s ease-out;
+    transition: all 0.2s 0.5s ease-out;
  }
 
 #animation-wrapper .animation-section {
@@ -316,6 +316,8 @@ footer .tagline {
 .animated #animation-wrapper {
     visibility: hidden;
     opacity: 0;
+    -webkit-transition: all 0.2s 0.5s ease-out;
+    transition: all 0.2s 0.5s ease-out;
     /* -webkit-transform: translateY(100%);
     -ms-transform: translateY(100%);
     transform: translateY(100%); */
