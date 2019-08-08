@@ -240,12 +240,12 @@ footer .tagline {
         justify-content: center;
     } */
     .graphic-container {
-        width: 65% !important;
-        margin: 20% auto !important;
+      width: 45% !important;
+      margin: auto 0 !important;
     }
 
     #tagline-graphic {
-      width: auto;
+      width: auto !important;
     }
 
     header .row > div:nth-child(2) {
