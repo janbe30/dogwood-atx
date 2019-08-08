@@ -240,7 +240,7 @@ footer .tagline {
         justify-content: center;
     } */
     .graphic-container {
-      width: 45% !important;
+      width: 44% !important;
       margin: auto 0 !important;
     }
 
@@ -347,7 +347,7 @@ footer .tagline {
   
   #tagline-graphic {
     position: absolute;
-    top: 50%;
+    top: 0;
     width: 24em;
     /* top: 0;
     left: 0; */
