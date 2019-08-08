@@ -246,6 +246,7 @@ footer .tagline {
 
     #tagline-graphic {
       width: auto !important;
+      top: 50% !important;
     }
 
     header .row > div:nth-child(2) {
